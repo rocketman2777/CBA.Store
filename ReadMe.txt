@@ -1,9 +1,9 @@
 Please see below for notes about each area of the solution. Due to time constraints a fully enterprise level
-solution could not be developed however the foundation of the solution has been established with a working
-CI/CD process that deploys the solution to Azure PaaS infrastructure.
+solution could not be developed however the foundation of the solution has been established with working unit
+testing and a CI/CD process that deploys the solution to Azure PaaS infrastructure.
 
 URLS
-Source Control: https://github.com/rocketman2687/CBA.Store
+Source Control: https://github.com/rocketman2777/CBA.Store
 CI/CD: https://rocketmanproductions.visualstudio.com/CBA.Store
 Product API: http://cba-store-api-as-dev.azurewebsites.net/api/product
 Website: http://cba-store-web-as-dev.azurewebsites.net
