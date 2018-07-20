@@ -1,0 +1,28 @@
+{
+  "name": "CBAStore",
+  "version": "1.0.0",
+  "description": "CBA.Store Node Dependencies",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-msbuild": "^0.5.3",
+    "gulp-nuget-restore": "^0.6.0",
+    "gulp-zip": "^4.1.0",
+    "path": "^0.12.7",
+    "run-sequence": "^2.2.0",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "michael.gough",
+  "repository": {
+    "type": "github",
+    "url": "https://www.github.com"
+  },
+  "license": "Unlicensed"
+}
