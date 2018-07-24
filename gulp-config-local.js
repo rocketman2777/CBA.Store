@@ -14,7 +14,7 @@
         buildVerbosity: "minimal",
         buildPlatform: "Any CPU",
         publishPlatform: "AnyCpu",
-        runCleanBuilds: false
+        runCleanBuilds: true
     };
     return config;
     return config;

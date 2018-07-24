@@ -13,7 +13,6 @@ var config = require("./gulp-config.js")();
 module.exports.config = config;
 
 gulp.task("default", function (callback) {
-    config.runCleanBuilds = true;
     return runSequence(
       "01-Nuget-Restore",
       "02-Build-Solution",
