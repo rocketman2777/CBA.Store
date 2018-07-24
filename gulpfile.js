@@ -30,15 +30,10 @@ gulp.task("01-Nuget-Restore", function (callback) {
 });
 
 gulp.task("02-Build-Solution", function () {
-    var targets = ["Build"];
-    if (config.runCleanBuilds) {
-        targets = ["Clean", "Build"];
-    }
-
     var solution = "./" + config.solutionName + ".sln";
     return gulp.src(solution)
         .pipe(msbuild({
-            targets: targets,
+            targets: (config.runCleanBuilds) ? ["Clean", "Build"] : ["Build"],
             configuration: config.buildConfiguration,
             logCommand: false,
             verbosity: config.buildVerbosity,
